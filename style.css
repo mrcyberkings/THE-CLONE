@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    position: relative;
+    background-size: cover;
+    font-family: arial;
+}
+body{
+    width: 1450px;
+    height: 17000px;
+}
+
+/* first section get started from here */
+.navbar{
+    height: 200px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background-color: black;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+.toplogo{
+  height: 300px;
+  width: 100%;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   border-bottom: 6px solid white;
+
+}
+.topimg{
+  height: 300px;
+  width: 50%;
+}
+/* first box get started from here*/
+
+
+
+.border:hover{
+    border: 8px solid gold;
+    border-radius: 8px;
+}
+
+/* third box get started from here */
+.search-bar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.dashed{
+  font-size: 70px;
+  font-weight: 900;
+  color: white;
+}
+.cart{
+ left:10px;
+}
+.all{
+height: 140px;
+width: 120px;
+text-align: center;
+padding-right: 5px;
+border: none;
+background-color: gold;
+font-weight: 700;
+border-bottom-left-radius: 15px;
+border-top-left-radius: 15px;
+font-size: 60px;
+}
+/* fourth box get started from  here  */
+.order{
+    color: whitesmoke;
+    font-size: 20px;
+}
+.O{
+    font-weight: 700;
+    font-size: 30px;
+}
+/* the second section get started from here */
+.panel{
+    height:100px;
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 900;
+    font-size: 35px;
+    
+}
+.men{
+    color: black;
+    font-weight: 700;
+    font-size: 40px;  
+    
+}
+.mri{
+  margin-right: 200px;
+}
+/* the first shop started from here*/
+.poster{
+  background-size:cover;
+  height: 300px;
+  width: 100%;
+  background-image: url(project-1/main.png);
+}
+.main{
+  height: 100%;
+  background-color: #e2e7e6;
+}
+.shop{
+
+  height: 1500px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
+  flex-wrap: wrap;
+}
+.box1{
+ height: 800px;
+ width: 650px;
+ background-color: white;
+ border-radius: 5px;
+ margin-top: 20px;
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+.bb{
+ margin-top: 10px;
+ margin-bottom: 20px;
+ margin-left: 20px;
+}
+.shp-h{
+  font-size: 80px;
+  text-align: center;
+}
+.sme{
+  font-size: 50px;
+  text-decoration: none;
+   margin-left: 380px;
+  color: #007185;
+}
+.advertise{
+  margin-top: 20px;
+}
+.items{
+  height: 60px;
+  width: 100px;
+  background-color: blue;
+}
+.ads1{
+  background-color: white;
+  color :black;
+  display: flex
+  height: 1000px;
+  width: 90%;
+  margin-top: 20px;
+  align-content: center;
+  align-items: center;
+  
+}
+.adsimg{
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.ratep{
+  display: flex;
+}
+.price{
+  color: white;
+  font-size: 80px;
+  font-weight: 900;
+  margin-left: 20px;
+  background-color: red;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.section{
+  display: flex;
+  margin-top: 20px;
+}
+.pan1{
+  height:150px;
+  width: 100%;
+  margin-top: 20px;
+  background-color: #007185;
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  font-weight: 900;
+}
